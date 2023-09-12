@@ -1,0 +1,14 @@
+#!/bin/bash
+# get the day of the week from the date command
+day=$(date +%a)
+case $day in
+	"Mon") full_day="Monday" ;;
+	"Tue") full_day="Tuesday" ;;
+	"Wed") full_day="Wednesday" ;;
+	"Thu") full_day="Thursday" ;;
+	"Fri") full_day="Friday" ;;
+	"Sat") full_day="Saturday" ;;
+	"Sun") full_day="Sunday" ;;
+	*) full_days="Invalid days" ;;
+esac
+echo "Today is "$full_day"
