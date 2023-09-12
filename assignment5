@@ -11,4 +11,4 @@ case $day in
 	"Sun") full_day="Sunday" ;;
 	*) full_days="Invalid days" ;;
 esac
-echo "Today is "$full_day"
+echo Today is "$full_day"
